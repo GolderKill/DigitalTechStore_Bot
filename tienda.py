@@ -18,31 +18,40 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 PRODUCTOS = {
     'guia_python': {
         'nombre': '🐍 Guía Rápida de Python',
-        'descripcion': 'PDF de 50 páginas con ejemplos prácticos para empezar desde cero.\n\n✅ Ejercicios resueltos\n✅ Proyectos prácticos\n✅ Código listo para usar',
+        'descripcion': 'PDF de 50 páginas con ejemplos prácticos.',
         'precio': 25,
         'archivo': 'productos/guia_python.pdf',
         'categoria': 'programacion',
-        'imagen_url': 'https://i.imgur.com/placeholder-python.jpg',  # Cambia por una URL real
-        'comision': 0.20  # 20% de comisión para referidos
+        'imagen_url': 'https://i.imgur.com/python.jpg',
+        'comision': 0.20
     },
     'plantilla_notion': {
-        'nombre': '📋 Plantilla Productividad Notion',
-        'descripcion': 'Sistema completo para organizar tu día, proyectos y hábitos.\n\n📅 Calendario integrado\n✅ Gestor de tareas\n📊 Tablero de objetivos',
+        'nombre': '📋 Plantilla Notion',
+        'descripcion': 'Sistema completo de productividad.',
         'precio': 35,
         'archivo': 'productos/plantilla_notion.pdf',
         'categoria': 'productividad',
-        'imagen_url': 'https://i.imgur.com/placeholder-notion.jpg',
+        'imagen_url': 'https://i.imgur.com/notion.jpg',
         'comision': 0.20
     },
-    'cheatsheet_markdown': {
-        'nombre': '📝 Cheatsheet Markdown',
-        'descripcion': 'Hoja de referencia rápida de Markdown para escribir mejor.\n\n📌 Sintaxis básica\n📌 Tablas y listas\n📌 Enlaces e imágenes',
-        'precio': 15,
-        'archivo': 'productos/cheatsheet_markdown.pdf',
-        'categoria': 'programacion',
-        'imagen_url': 'https://i.imgur.com/placeholder-markdown.jpg',
+    'curso_excel': {  # ← NUEVO PRODUCTO
+        'nombre': '📊 Curso de Excel',
+        'descripcion': 'Aprende Excel desde cero.\n\n✅ Fórmulas\n✅ Tablas dinámicas',
+        'precio': 45,
+        'archivo': 'productos/curso_excel.pdf',
+        'categoria': 'productividad',
+        'imagen_url': 'https://i.imgur.com/excel.jpg',
         'comision': 0.20
-    }
+    },
+    'cheatsheet_html': {  # ← OTRO PRODUCTO NUEVO
+        'nombre': '🌐 Cheatsheet HTML/CSS',
+        'descripcion': 'Referencia rápida de HTML5 y CSS3.',
+        'precio': 20,
+        'archivo': 'productos/cheatsheet_html.pdf',
+        'categoria': 'programacion',
+        'imagen_url': 'https://i.imgur.com/html.jpg',
+        'comision': 0.20
+    },
 }
 
 # === BASE DE DATOS MEJORADA ===
