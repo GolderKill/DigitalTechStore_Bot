@@ -22,7 +22,7 @@ PRODUCTOS = {
         'precio': 25,
         'archivo': 'productos/guia_python.pdf',
         'categoria': 'programacion',
-        'imagen_url': 'https://i.imgur.com/python.jpg',
+        'imagen_url': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1osjX1PaYe24YdIhP3-NbAM7DQIcPHMwIig&s',
         'comision': 0.20
     },
     'plantilla_notion': {
@@ -31,7 +31,7 @@ PRODUCTOS = {
         'precio': 35,
         'archivo': 'productos/plantilla_notion.pdf',
         'categoria': 'productividad',
-        'imagen_url': 'https://i.imgur.com/notion.jpg',
+        'imagen_url': 'https://1000logos.net/wp-content/uploads/2024/07/Notion-Emblem.png',
         'comision': 0.20
     },
     'curso_excel': {  # ← NUEVO PRODUCTO
@@ -40,7 +40,7 @@ PRODUCTOS = {
         'precio': 45,
         'archivo': 'productos/curso_excel.pdf',
         'categoria': 'productividad',
-        'imagen_url': 'https://i.imgur.com/excel.jpg',
+        'imagen_url': 'https://www.pngall.com/wp-content/uploads/15/Excel-Logo-PNG-Cutout.png',
         'comision': 0.20
     },
     'cheatsheet_html': {  # ← OTRO PRODUCTO NUEVO
@@ -49,7 +49,7 @@ PRODUCTOS = {
         'precio': 20,
         'archivo': 'productos/cheatsheet_html.pdf',
         'categoria': 'programacion',
-        'imagen_url': 'https://i.imgur.com/html.jpg',
+        'imagen_url': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4qBmJGTPN0qUI-J-rb4pCSMj5jkyzPCnWlQ&s',
         'comision': 0.20
     },
 }
